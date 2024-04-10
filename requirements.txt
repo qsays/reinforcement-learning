@@ -1,5 +1,5 @@
 Keras==2.0.3
-numpy==1.12.1
+numpy==1.22.2
 pandas==0.19.2
 matplotlib==2.0.0
 tensorflow==1.0.0
@@ -7,3 +7,7 @@ Pillow==4.1.0
 gym==0.8.1
 h5py==2.7.0
 scikit-image==0.13.0
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+networkx>=2.6 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+scipy>=1.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
